@@ -1,0 +1,81 @@
+.footer, .navigation, .btn-banner, .btn-contact
+{
+    display: none;
+}
+
+.image-post
+{
+    width: 100%;
+    height: 100%;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.col
+{
+    width: 50%;
+    padding: 0 5px 0 5px;
+}
+
+.banner-intro, section h1
+{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+.title-h1, .sous_titre
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.content, .container-img, .lieux_conseilles
+{
+    text-align: center;
+}
+.img
+{
+    width: 70%;
+}
+
+.article_impaire, .article_paire, .article_event
+{
+    margin-bottom: 45px;
+}
+
+form
+{
+    text-align: center;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textArea, #contact select {
+    width: 50%;
+    border: 1px solid grey;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+#contact textArea, #contact input[type="email"], #contact input[type="text"]{
+    padding: 0;
+}
+#contact input#email, #contact input#pseudo {
+    text-indent: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label, select, option, input
+{
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+}
+
+option, input
+{
+    font-size: 14px;
+}
